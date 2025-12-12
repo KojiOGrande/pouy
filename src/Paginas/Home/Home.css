@@ -1,0 +1,266 @@
+.inicio{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(234, 237, 240, 0.356);
+}
+
+
+.minhasTarefas{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 700px;
+    flex-direction: column;
+    background-color: rgba(173, 162, 162, 0.452);
+}
+
+
+.tarefas{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+
+   
+}
+
+.tarefas section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.tarefas section h2{
+    color: rgb(20, 19, 19);
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.tarefas section p{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+section .btnTarefa{
+    padding: 10px;
+    width: 120px;
+    border: none;
+    background-color: rgb(0, 102, 255);
+    color: white;
+    border-radius: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+section .btnTarefa:hover{
+    background-color: rgb(4, 65, 156) ;
+}
+
+/* PRIMEIRO CARD*/
+.cards{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 237, 240);
+}
+
+ .cardFazer{
+   margin-top: 0px;
+   margin-right: 20px;
+   margin-left: 20px;
+   margin-bottom: 0px;
+    
+}
+
+.cardFazer h2 span{
+    color: rgb(34, 34, 34);
+    background-color: rgb(189, 183, 183);
+    padding: 0px 8px;
+    font-size: 20px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.cardFazer .conteudo{
+    width: 340px;
+    height: 200px;
+    background-color: white;
+    border-left: 5px solid rgba(0, 0, 0, 0.377);
+    border-radius: 10px;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+
+.conteudoCard{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+
+.titleCardFazer{
+    background-color: rgb(219, 177, 38);
+    width: 35px;
+    padding: 4px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.footerCard{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.13);
+
+}
+.textFooterFazer{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+
+/*  SEGUNDO CARD*/
+
+.cardEmProcesso{
+   margin-top: 0px;
+   margin-right: 20px;
+   margin-left: 20px;
+   margin-bottom: 0px;
+    
+}
+
+.cardEmProcesso h2 span{
+    color: rgb(34, 34, 34);
+    background-color: rgb(189, 183, 183);
+    padding: 0px 8px;
+    font-size: 20px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.cardEmProcesso .conteudo{
+    width: 340px;
+    height: 200px;
+    background-color: white;
+    border-left: 5px solid rgb(32, 98, 223);
+    border-radius: 10px;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+
+.conteudoCard{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+
+.titleCardEmProgresso{
+    background-color: rgb(219, 50, 38);
+    width: 35px;
+    padding: 4px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.footerCard{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.13);
+
+}
+.textFooterEmProgresso{
+    font-size: 14px;
+    color: rgb(1, 72, 204);
+}
+
+
+/* TERCEIRO CARD  */
+
+.cardConcluido{
+   margin-top: 0px;
+   margin-right: 20px;
+   margin-left: 20px;
+   margin-bottom: 0px;
+    
+}
+
+.cardConcluido h2 span{
+    color: rgb(34, 34, 34);
+    background-color: rgb(189, 183, 183);
+    padding: 0px 8px;
+    font-size: 20px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.cardConcluido .conteudo{
+    width: 340px;
+    height: 200px;
+    background-color: white;
+    border-left: 5px solid rgb(32, 223, 41);
+    border-radius: 10px;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+
+.conteudoCard{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+
+.titleCardConcluido{
+    background-color: rgb(219, 177, 38);
+    width: 35px;
+    padding: 4px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.footerCard{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.13);
+
+}
+.textFooterConcluido{
+    font-size: 14px;
+    color: rgb(42, 204, 1);
+}
+
+
+
+
+.titleFooter{
+    color: rgba(0, 0, 0, 0.719);
+    font-size: 14px;
+}
+
+.iconCard{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
